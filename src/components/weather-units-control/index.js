@@ -12,7 +12,7 @@ import GENERAL from '../../constants/General';
 function WeatherUnitControl(props) {
     const {value, defaultValue, onChange} = props
     return (
-        <FormControl className="mt-3" component="fieldset">
+        <FormControl className="mt-3 mb-3" component="fieldset">
             <FormLabel component="legend">{LOCALIZATION.TEMPERATURE_UNIT}</FormLabel>
             <RadioGroup
                 row

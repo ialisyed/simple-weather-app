@@ -8,7 +8,7 @@ function Arrow(props) {
     const { className, style, onClick } = props;
     return (
         <div
-            className={className}
+            className={`${className} customArrow`}
             style={{ ...style, color: 'black' }}
             onClick={onClick}
         />

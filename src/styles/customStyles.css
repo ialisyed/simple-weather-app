@@ -10,3 +10,13 @@
 .loader {
     color: #3f51b5;
 }
+
+.customArrow {
+    margin-top: -150px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}

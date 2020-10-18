@@ -33,7 +33,7 @@ const SELECTED_CARD_COLOR = '#e8f4f8';
 function WeatherCard(props) {
     const { isSelected, onClick, icon, temprature, unit, date } = props;
     return (
-        <Card style={{ backgroundColor: isSelected ? SELECTED_CARD_COLOR : 'unset' }}>
+        <Card className="mt-30" style={{ backgroundColor: isSelected ? SELECTED_CARD_COLOR : 'unset' }}>
             <CardActionArea onClick={onClick}>
                 <CardMedia image={GENERAL.ICON_URL.replace(ICON_REPLACER, icon)} className='media' />
                 <CardContent>
