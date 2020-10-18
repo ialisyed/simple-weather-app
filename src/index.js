@@ -12,7 +12,7 @@ import ErrorBoundary from './components/error-boundary';
 
 const app = (
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <ErrorBoundary>
         <App />
       </ErrorBoundary>
