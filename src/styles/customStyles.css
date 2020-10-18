@@ -1,0 +1,12 @@
+.slick-arrow::before {
+    color: inherit;
+}
+
+.media {
+    height: 50px;
+    background-size: unset !important
+}
+
+.loader {
+    color: #3f51b5;
+}
