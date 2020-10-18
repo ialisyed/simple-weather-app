@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/simple-weather-app/static/css/main.f21a3fdf.chunk.css",
-    "main.js": "/simple-weather-app/static/js/main.f6c383b8.chunk.js",
-    "main.js.map": "/simple-weather-app/static/js/main.f6c383b8.chunk.js.map",
-    "runtime-main.js": "/simple-weather-app/static/js/runtime-main.882d2e1c.js",
-    "runtime-main.js.map": "/simple-weather-app/static/js/runtime-main.882d2e1c.js.map",
-    "static/css/2.d9986383.chunk.css": "/simple-weather-app/static/css/2.d9986383.chunk.css",
-    "static/js/2.e150cf8e.chunk.js": "/simple-weather-app/static/js/2.e150cf8e.chunk.js",
-    "static/js/2.e150cf8e.chunk.js.map": "/simple-weather-app/static/js/2.e150cf8e.chunk.js.map",
-    "index.html": "/simple-weather-app/index.html",
-    "precache-manifest.33e798f22033a35359ef998b028009f8.js": "/simple-weather-app/precache-manifest.33e798f22033a35359ef998b028009f8.js",
-    "service-worker.js": "/simple-weather-app/service-worker.js",
-    "static/css/2.d9986383.chunk.css.map": "/simple-weather-app/static/css/2.d9986383.chunk.css.map",
-    "static/css/main.f21a3fdf.chunk.css.map": "/simple-weather-app/static/css/main.f21a3fdf.chunk.css.map",
-    "static/js/2.e150cf8e.chunk.js.LICENSE.txt": "/simple-weather-app/static/js/2.e150cf8e.chunk.js.LICENSE.txt",
-    "static/media/slick-theme.css": "/simple-weather-app/static/media/slick.f97e3bbf.svg"
+    "main.css": "./static/css/main.f21a3fdf.chunk.css",
+    "main.js": "./static/js/main.4ad0d572.chunk.js",
+    "main.js.map": "./static/js/main.4ad0d572.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.204df737.js",
+    "runtime-main.js.map": "./static/js/runtime-main.204df737.js.map",
+    "static/css/2.1c7191f8.chunk.css": "./static/css/2.1c7191f8.chunk.css",
+    "static/js/2.4f13425b.chunk.js": "./static/js/2.4f13425b.chunk.js",
+    "static/js/2.4f13425b.chunk.js.map": "./static/js/2.4f13425b.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.8979c83886e16ce0f5d57f412710254a.js": "./precache-manifest.8979c83886e16ce0f5d57f412710254a.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.1c7191f8.chunk.css.map": "./static/css/2.1c7191f8.chunk.css.map",
+    "static/css/main.f21a3fdf.chunk.css.map": "./static/css/main.f21a3fdf.chunk.css.map",
+    "static/js/2.4f13425b.chunk.js.LICENSE.txt": "./static/js/2.4f13425b.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "./static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.882d2e1c.js",
-    "static/css/2.d9986383.chunk.css",
-    "static/js/2.e150cf8e.chunk.js",
+    "static/js/runtime-main.204df737.js",
+    "static/css/2.1c7191f8.chunk.css",
+    "static/js/2.4f13425b.chunk.js",
     "static/css/main.f21a3fdf.chunk.css",
-    "static/js/main.f6c383b8.chunk.js"
+    "static/js/main.4ad0d572.chunk.js"
   ]
 }
