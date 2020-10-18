@@ -9,7 +9,6 @@ async function getWeatherData() {
         manageWeatherApiCall(GENERAL.UNITS.CELSIUS),
         manageWeatherApiCall(GENERAL.UNITS.FAHRENHEIT),
     ]);
-    console.log(celsiusData, fahrenheitData)
     return { celsiusData, fahrenheitData };
 }
 /**
