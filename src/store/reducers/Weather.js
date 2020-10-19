@@ -2,7 +2,8 @@ import WEATHER_ACTIONS from '../../constants/actions';
 
 const initialState = {
     data: null,
-    loading: true
+    loading: true,
+    error: null,
 }
 
 const weatherReducer = (state = initialState, action) => {
@@ -22,7 +23,8 @@ const weatherReducer = (state = initialState, action) => {
 
             return {
                 ...state,
-                loading: true
+                loading: false,
+                error: action.payload
             }
         default:
             return state;
