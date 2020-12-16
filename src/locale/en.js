@@ -7,7 +7,8 @@ const LOCALIZATION = {
     TEMPERATURE: 'Temperature',
     TIME: 'Time',
     TEMP_LABEL: 'Temp:',
-    DATE_LABEL: 'Date:'
+    DATE_LABEL: 'Date:',
+    LOADING: 'Loading...',
 }
 
 export default LOCALIZATION;

@@ -1,5 +1,6 @@
 import React from 'react';
 import CircularProgress from '@material-ui/core/CircularProgress';
+import LOCALIZATION from '../../locale/en';
 
 function Loading() {
     return (
@@ -8,7 +9,7 @@ function Loading() {
                 <CircularProgress />
             </div>
             <div>
-                <h3 className="loader">Loading...</h3>
+                <h3 className="loader">{LOCALIZATION.LOADING}</h3>
             </div>
         </div>
     );

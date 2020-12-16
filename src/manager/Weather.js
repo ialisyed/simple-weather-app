@@ -11,6 +11,7 @@ async function getWeatherData() {
     ]);
     return { celsiusData, fahrenheitData };
 }
+
 /**
  * parse api response as soon as response arrives
  * @param {String} units 

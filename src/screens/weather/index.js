@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { connect } from 'react-redux';
+import { useSelector } from 'react-redux';
 import Slider from "react-slick";
 import { Container } from '@material-ui/core';
 import moment from 'moment';
@@ -11,8 +11,8 @@ import { SLIDER_SETTINGS, makeBarChartData } from '../../helper/UI/index';
 import GENERAL from '../../constants/General';
 import LOCALIZATION from '../../locale/en';
 
-function Weather(props) {
-  const { data } = props;
+function Weather() {
+  const data = useSelector(state => state.weather.data);
 
   // controlling current temperature unit. Celcius by default
   const [currentUnit, setCurrentUnit] = useState(GENERAL.DATA_KEYS_MAP.CELSIUS);
@@ -69,11 +69,4 @@ function Weather(props) {
   );
 }
 
-const mapStateToProps = (state) => {
-  const { data } = state.weather;
-  return {
-    data,
-  }
-}
-
-export default connect(mapStateToProps)(Weather);
+export default Weather;

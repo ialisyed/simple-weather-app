@@ -6,3 +6,8 @@
 
 ### then:
 `$ npm start`
+
+## Unit tests
+### unit tests are in `/src/__tests__/` and `src/App.test.js`
+### to run tests:
+`$ npm run test`

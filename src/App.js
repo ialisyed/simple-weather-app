@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { Route, withRouter } from 'react-router-dom';
 
 import "slick-carousel/slick/slick.css";
@@ -12,15 +11,16 @@ import { getWeather } from './store/actions/Weather';
 import Weather from './screens/weather';
 import Loading from './screens/loading';
 
-function App(props) {
-  const { getWeather } = props;
+function App() {
+  const dispatch = useDispatch();
+  const loading = useSelector(state => state.weather.loading);
 
   useEffect(() => {
-    getWeather();
-  }, [getWeather]);
+    dispatch(getWeather());
+  }, [dispatch]);
 
   let routes = (
-    <Route exact path='/' component={props.loading ? Loading : Weather} />
+    <Route exact path='/' component={loading ? Loading : Weather} />
   );
 
   return (
@@ -30,17 +30,4 @@ function App(props) {
   );
 }
 
-const mapDispatchToProps = dispatch => {
-  return bindActionCreators({
-    getWeather
-  }, dispatch)
-}
-
-const mapStateToProps = state => {
-  const { loading } = state.weather
-  return {
-    loading
-  };
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(withRouter(App));
+export default withRouter(App);

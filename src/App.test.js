@@ -14,12 +14,13 @@ import { BASE_URL } from './constants/API';
 import { getWeather } from './store/actions/Weather';
 import WEATHER_DATA, { WEATHER_DATA_RES } from './__mocks__/weatherData.mock';
 
-const middlewares = [thunk]
+const middlewares = [thunk];
 const mockStore = configureMockStore(middlewares);
 const mock = new MockAdapter(axios);
 const store = mockStore({});
 
 describe('App', () => {
+
   beforeEach(() => {
     store.clearActions();
   });
@@ -51,7 +52,7 @@ describe('App', () => {
           payload: WEATHER_DATA_RES
         }
       ];
-      expect(store.getActions()).toEqual(expectedActions)
-    })
-  })
-})
+      expect(store.getActions()).toEqual(expectedActions);
+    });
+  });
+});
